@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Took out the class of header - not needed */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,9 +49,12 @@ a {
 p {
     font-size: 16px;
 }
+/* added .hero and took out background url() to make it work for me */
 .hero{
     padding: 0;
 }
+
+/* Added img to this .hero */
 .hero img{
     height: 800px;
     width: 100%;
@@ -133,7 +136,7 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* For these only a class or id was needed so I chose an id making them all #*/
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +190,7 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Footer is unncessary to be a class */
 footer {
     padding: 30px;
     clear: both;
